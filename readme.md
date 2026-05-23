@@ -5,5 +5,5 @@ This repository contains all the files needed to build a simple pendulum.
 - **ComponentList.md**: Bill of material of the machine
 - **Single Pendulum STL**: Folder containing all the 3D-print parts in stl format
 - **Single Pendulum Circuit**: Folder containing the pcb (schematic + footprint) drawn on Kicad, this circuit allows to connect electrically all the parts together (motor, controller, etc.)
-- **Balance_ESP32C3_1_2**: Folder containing the source code of the controller, written in C++, in VSCode PlatformIO
-- **Single Pendulum**: Folder containing the source code of the program on the computer to set-up the system, to set the parameters and to launch the machine, written in SwiftUI, for MacOS computer
+- **Single Pendulum C++**: Folder containing the source code of the controller, written in C++, in VSCode PlatformIO
+- **Single Pendulum SwiftUI**: Folder containing the source code of the program on the computer to set-up the system, to set the parameters and to launch the machine, written in SwiftUI, for MacOS computer
