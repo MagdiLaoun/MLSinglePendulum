@@ -1,0 +1,51 @@
+{
+  "originHash" : "745bec4605ee2b006c889c20083209df038cbf6f32bf53ff0f08a729f21de310",
+  "pins" : [
+    {
+      "identity" : "mlelements",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MagdiLaoun/MLElements.git",
+      "state" : {
+        "revision" : "ba9a70e3c95b1d873e7cf3e14017900e514e357a",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "mlgraph",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MagdiLaoun/MLGraph.git",
+      "state" : {
+        "revision" : "8e15742a1ffb2022275b6cd792cc7d3c52f07d81",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "mlunit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MagdiLaoun/MLUnit.git",
+      "state" : {
+        "revision" : "28809b92564f43e760318bdbdbc5d54f4782dca7",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "mlvalue",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MagdiLaoun/MLValue",
+      "state" : {
+        "revision" : "c1c7c8fa3900c8c3f190a811cb91da57633c147d",
+        "version" : "1.0.10"
+      }
+    },
+    {
+      "identity" : "orsserialport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/armadsen/ORSSerialPort",
+      "state" : {
+        "revision" : "58a8cc454304e22280f184c2d2e25ecb3d5a74c5",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
