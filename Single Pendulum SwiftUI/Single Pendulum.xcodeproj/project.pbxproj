@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153B1D712FC6EDE500457E98 /* MLValue in Frameworks */ = {isa = PBXBuildFile; productRef = 153B1D702FC6EDE500457E98 /* MLValue */; };
 		155315F92F5A2A1C00588F3D /* MLGraph in Frameworks */ = {isa = PBXBuildFile; productRef = 155315F82F5A2A1C00588F3D /* MLGraph */; };
 		1574752B2F519BAE00C0D866 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 1574752A2F519BAE00C0D866 /* ORSSerial */; };
 		157475812F51CFFA00C0D866 /* MLValue in Frameworks */ = {isa = PBXBuildFile; productRef = 157475802F51CFFA00C0D866 /* MLValue */; };
-		1579E6352F5EC79300AC7687 /* MLGraph in Frameworks */ = {isa = PBXBuildFile; productRef = 1579E6342F5EC79300AC7687 /* MLGraph */; };
-		15E5285E2F991B7D005D25EA /* MLValue in Frameworks */ = {isa = PBXBuildFile; productRef = 15E5285D2F991B7D005D25EA /* MLValue */; };
+		15BBEB492FC6D467000680F2 /* MLValue in Frameworks */ = {isa = PBXBuildFile; productRef = 15BBEB482FC6D467000680F2 /* MLValue */; };
+		15BBEB4C2FC6D486000680F2 /* MLGraph in Frameworks */ = {isa = PBXBuildFile; productRef = 15BBEB4B2FC6D486000680F2 /* MLGraph */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +33,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				155315F92F5A2A1C00588F3D /* MLGraph in Frameworks */,
-				15E5285E2F991B7D005D25EA /* MLValue in Frameworks */,
+				15BBEB4C2FC6D486000680F2 /* MLGraph in Frameworks */,
+				15BBEB492FC6D467000680F2 /* MLValue in Frameworks */,
+				153B1D712FC6EDE500457E98 /* MLValue in Frameworks */,
 				1574752B2F519BAE00C0D866 /* ORSSerial in Frameworks */,
-				1579E6352F5EC79300AC7687 /* MLGraph in Frameworks */,
 				157475812F51CFFA00C0D866 /* MLValue in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,8 +83,9 @@
 				1574752A2F519BAE00C0D866 /* ORSSerial */,
 				157475802F51CFFA00C0D866 /* MLValue */,
 				155315F82F5A2A1C00588F3D /* MLGraph */,
-				1579E6342F5EC79300AC7687 /* MLGraph */,
-				15E5285D2F991B7D005D25EA /* MLValue */,
+				15BBEB482FC6D467000680F2 /* MLValue */,
+				15BBEB4B2FC6D486000680F2 /* MLGraph */,
+				153B1D702FC6EDE500457E98 /* MLValue */,
 			);
 			productName = "Single Pendulum";
 			productReference = 1574751B2F519B7A00C0D866 /* Single Pendulum.app */;
@@ -114,8 +117,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				157475292F519BAE00C0D866 /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
-				1579E6332F5EC79300AC7687 /* XCRemoteSwiftPackageReference "MLGraph" */,
-				15E5285C2F991B7D005D25EA /* XCRemoteSwiftPackageReference "MLValue" */,
+				15BBEB4A2FC6D486000680F2 /* XCRemoteSwiftPackageReference "MLGraph" */,
+				153B1D6F2FC6EDE500457E98 /* XCRemoteSwiftPackageReference "MLValue" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1574751C2F519B7A00C0D866 /* Products */;
@@ -354,6 +357,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		153B1D6F2FC6EDE500457E98 /* XCRemoteSwiftPackageReference "MLValue" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MagdiLaoun/MLValue.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		157475292F519BAE00C0D866 /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/armadsen/ORSSerialPort";
@@ -362,7 +373,7 @@
 				minimumVersion = 2.1.0;
 			};
 		};
-		1579E6332F5EC79300AC7687 /* XCRemoteSwiftPackageReference "MLGraph" */ = {
+		15BBEB4A2FC6D486000680F2 /* XCRemoteSwiftPackageReference "MLGraph" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MagdiLaoun/MLGraph.git";
 			requirement = {
@@ -370,17 +381,14 @@
 				minimumVersion = 1.0.1;
 			};
 		};
-		15E5285C2F991B7D005D25EA /* XCRemoteSwiftPackageReference "MLValue" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MagdiLaoun/MLValue";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		153B1D702FC6EDE500457E98 /* MLValue */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 153B1D6F2FC6EDE500457E98 /* XCRemoteSwiftPackageReference "MLValue" */;
+			productName = MLValue;
+		};
 		155315F82F5A2A1C00588F3D /* MLGraph */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MLGraph;
@@ -394,15 +402,14 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = MLValue;
 		};
-		1579E6342F5EC79300AC7687 /* MLGraph */ = {
+		15BBEB482FC6D467000680F2 /* MLValue */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1579E6332F5EC79300AC7687 /* XCRemoteSwiftPackageReference "MLGraph" */;
-			productName = MLGraph;
-		};
-		15E5285D2F991B7D005D25EA /* MLValue */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 15E5285C2F991B7D005D25EA /* XCRemoteSwiftPackageReference "MLValue" */;
 			productName = MLValue;
+		};
+		15BBEB4B2FC6D486000680F2 /* MLGraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15BBEB4A2FC6D486000680F2 /* XCRemoteSwiftPackageReference "MLGraph" */;
+			productName = MLGraph;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

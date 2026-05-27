@@ -40,11 +40,11 @@ import MLUnit
   override init() {
     super.init()
     read.values = [
-      .init("Encoder Pos [rad]", 0x00, double: 0),
-      .init("Encoder Speed [rad/s]", 0x01, double: 0),
+      .init("Encoder Pos", 0x00, double: 0, unit: .deg),
+      .init("Encoder Speed", 0x01, double: 0, unit: .rad_s),
       .init("Motor Position [mm]", 0x02, double: 0, unit: .mm),
-      .init("Motor Speed [mm/s]", 0x03, double: 0, unit: .mm),
-      .init("Cycle Time [us]", 0x04, double: 0, unit: .s)
+      .init("Motor Speed", 0x03, double: 0, unit: .mm),
+      .init("Cycle Time", 0x04, double: 0, unit: .s)
       //.init("Custom 1", 0x04, double: 0),
       //.init("Custom 2", 0x06, double: 0)
     ]

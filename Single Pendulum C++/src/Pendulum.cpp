@@ -49,7 +49,7 @@ void Pendulum::updateAngle() {
   angularVelocity = encoderSpd.update(angle);
 }
 void Pendulum::updatePosition() {
-  long currentPosition = tmc.getSPIPosition();
+  long currentPosition = tmc.getPosition();
   position = float(currentPosition) * distanceRatio;
   velocity = motorSpd.update(position);
 }

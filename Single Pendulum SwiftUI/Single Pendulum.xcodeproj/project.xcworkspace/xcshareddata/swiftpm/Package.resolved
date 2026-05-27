@@ -1,5 +1,5 @@
 {
-  "originHash" : "745bec4605ee2b006c889c20083209df038cbf6f32bf53ff0f08a729f21de310",
+  "originHash" : "62cf11e76357e029d0281fa5b0dfd809e0a5a591cc52018cd79752f676f497a6",
   "pins" : [
     {
       "identity" : "mlelements",
@@ -31,10 +31,10 @@
     {
       "identity" : "mlvalue",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/MagdiLaoun/MLValue",
+      "location" : "https://github.com/MagdiLaoun/MLValue.git",
       "state" : {
-        "revision" : "c1c7c8fa3900c8c3f190a811cb91da57633c147d",
-        "version" : "1.0.10"
+        "revision" : "798bc90898ea5c7f277dfd937b9adcc7aec2b3be",
+        "version" : "1.0.11"
       }
     },
     {
